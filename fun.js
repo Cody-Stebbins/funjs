@@ -32,4 +32,43 @@ for (var i = 1; i = 101; i++) {
     else console.log(i);
 }
 hello world
-Changes  
+Changes
+
+
+//exercises 1
+let x = 1;
+let y = " String ";
+let z = true;
+let a = x + y + z;
+let b = "Hello world " + 69;
+
+console.log(a)
+// exercise 2
+
+for (let i = 0; i <= 255; i++) {
+    console.log(i);
+}
+
+//exercise 3
+
+let lightIsOn = false;
+
+if (lightIsOn) {
+    console.log("turn light off");
+}
+else if (!lightIsOn) {
+    console.log("Turn light On");
+}
+
+//exercise 4
+let startingMoney = 5;
+let winFight = false;
+
+if (winFight) {
+    startingMoney++
+    console.log(startingMoney);
+}
+else if (!winFight) {
+    startingMoney--
+    console.log(startingMoney);
+}
